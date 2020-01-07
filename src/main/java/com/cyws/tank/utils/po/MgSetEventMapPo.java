@@ -1,0 +1,52 @@
+package com.cyws.tank.utils.po;
+
+public class MgSetEventMapPo {
+
+	private String LEVELS_UP_DATETIME;
+	private String LEVELS_DOWN_DATETIME;
+	
+	private String PRESSURE_UP_DATETIME;
+	private String PRESSURE_DOWN_DATETIME;
+	
+	private String VACUUM_UP_DATETIME;
+	private String VACUUM_DOWN_DATETIME;
+	
+	
+	public String getLEVELS_UP_DATETIME() {
+		return LEVELS_UP_DATETIME;
+	}
+	public void setLEVELS_UP_DATETIME(String lEVELS_UP_DATETIME) {
+		LEVELS_UP_DATETIME = lEVELS_UP_DATETIME;
+	}
+	public String getLEVELS_DOWN_DATETIME() {
+		return LEVELS_DOWN_DATETIME;
+	}
+	public void setLEVELS_DOWN_DATETIME(String lEVELS_DOWN_DATETIME) {
+		LEVELS_DOWN_DATETIME = lEVELS_DOWN_DATETIME;
+	}
+	public String getPRESSURE_UP_DATETIME() {
+		return PRESSURE_UP_DATETIME;
+	}
+	public void setPRESSURE_UP_DATETIME(String pRESSURE_UP_DATETIME) {
+		PRESSURE_UP_DATETIME = pRESSURE_UP_DATETIME;
+	}
+	public String getPRESSURE_DOWN_DATETIME() {
+		return PRESSURE_DOWN_DATETIME;
+	}
+	public void setPRESSURE_DOWN_DATETIME(String pRESSURE_DOWN_DATETIME) {
+		PRESSURE_DOWN_DATETIME = pRESSURE_DOWN_DATETIME;
+	}
+	public String getVACUUM_UP_DATETIME() {
+		return VACUUM_UP_DATETIME;
+	}
+	public void setVACUUM_UP_DATETIME(String vACUUM_UP_DATETIME) {
+		VACUUM_UP_DATETIME = vACUUM_UP_DATETIME;
+	}
+	public String getVACUUM_DOWN_DATETIME() {
+		return VACUUM_DOWN_DATETIME;
+	}
+	public void setVACUUM_DOWN_DATETIME(String vACUUM_DOWN_DATETIME) {
+		VACUUM_DOWN_DATETIME = vACUUM_DOWN_DATETIME;
+	}
+	
+}
