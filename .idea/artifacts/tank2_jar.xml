@@ -1,0 +1,54 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="tank2:jar">
+    <output-path>D:/resource/TANK2_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TANK2.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="TANK2" />
+      </element>
+      <element id="directory" name="tank2_lib">
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/thetransactioncompany/cors-filter/2.5/cors-filter-2.5.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/alibaba/druid/1.0.28/druid-1.0.28.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/net/sf/ehcache/ehcache-core/2.6.6/ehcache-core-2.6.6.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.8/fastjson-1.2.8.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.3.15-gfa/grizzly-framework-2.3.15-gfa.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/grizzly/grizzly-http/2.3.15-gfa/grizzly-http-2.3.15-gfa.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.3.15-gfa/grizzly-http-server-2.3.15-gfa.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/zaxxer/HikariCP-java6/2.3.13/HikariCP-java6-2.3.13.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/thetransactioncompany/java-property-utils/1.10/java-property-utils-1.10.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar" />
+        <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_121/lib/jconsole.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/com/mchange/mchange-commons-java/0.2.11/mchange-commons-java-0.2.11.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-context/4.0.0.RELEASE/spring-context-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-expression/4.0.0.RELEASE/spring-expression-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/springframework/spring-websocket/4.0.0.RELEASE/spring-websocket-4.0.0.RELEASE.jar" />
+        <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_121/lib/tools.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/tyrus/tyrus-client/1.8.3/tyrus-client-1.8.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/1.8.3/tyrus-container-grizzly-client-1.8.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/tyrus/tyrus-core/1.8.3/tyrus-core-1.8.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/glassfish/tyrus/tyrus-spi/1.8.3/tyrus-spi-1.8.3.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/xsocket/xSocket/2.8.15/xSocket-2.8.15.jar" />
+        <element id="file-copy" path="$USER_HOME$/.m2/repository/org/xsocket/xSocket-multiplexed/2.1.7/xSocket-multiplexed-2.1.7.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

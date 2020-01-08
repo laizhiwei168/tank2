@@ -73,6 +73,8 @@ public class TankMain2 {
 		  }finally{
 			  PushUserext.shutdown();//结束线程
 		  }*/
+
+		  //
 		  
 		  /**main 定时轮查*/
 		  ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);

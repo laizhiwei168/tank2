@@ -17,7 +17,7 @@ public class StorageTankController {
 	private TaDataBll taDataBll=new TaDataBll();
 	private MgSetController mgSetController=new MgSetController();
 	private TankVolumeCalculate tankVolumeCalculate=new TankVolumeCalculate();
-	
+
 	
 	public void assemble03(ExtensionInitiativeData extensionInitiativeData){
 		String terminalPhone=extensionInitiativeData.getPackageData().getMsgHeader().getTerminalPhone();	    
@@ -29,7 +29,7 @@ public class StorageTankController {
 	    	return ;
 	    }
 	    Map<String, Object> taTank_map=ls_taTank.get(0);//new HashMap<String, Object>();//ls_taTank.get(0);
-		
+
 	    
 		// 上报时间
 		String dateTime=extensionInitiativeData.getDateTime();
@@ -375,26 +375,37 @@ public class StorageTankController {
 		eventLimitPo.setOutbound_instantaneous_flow_up(outbound_instantaneous_flow_up);
 		eventLimitPo.setOutbound_instantaneous_flow_down(outbound_instantaneous_flow_down);	    
 		eventLimitPo.setUnloading_area_pressure(unloading_area_pressure);
-		
+		eventLimitPo.setOutgoing_liquidLevel_up(LEVEL_UP);
+		eventLimitPo.setOutgoing_liquidLevel_down(LEVEL_DOWN);
+		eventLimitPo.setTank_pressure_up(PRESSURE_UP);
+		eventLimitPo.setTank_pressure_down(PRESSURE_DOWN);
+
+
 		FL_EventValuesPo eventValuesPo =new FL_EventValuesPo();
 		eventValuesPo.setEQUIPMENT_ID(eQUIPMENT_ID);
-		eventValuesPo.setDA_UP(DateUtils.BCDdatetime2datetime(dateTime));		
+		eventValuesPo.setDA_UP(DateUtils.BCDdatetime2datetime(dateTime));
 		eventValuesPo.setStandardFlowAddUp1(standardFlowAddUp);
 		eventValuesPo.setStandardFlow1(standardFlow);
 		eventValuesPo.setWorkTemperature1(workTemperature);
-		eventValuesPo.setWorkPressure1(workPressure);		
+		eventValuesPo.setWorkPressure1(workPressure);
+		eventValuesPo.setLiquidLevel1(liquidLevel);
 		eventValuesPo.setStandardFlowAddUp2(standardFlowAddUp2);
 		eventValuesPo.setStandardFlow2(standardFlow2);
 		eventValuesPo.setWorkTemperature2(workTemperature2);
-		eventValuesPo.setWorkPressure2(workPressure2);		
+		eventValuesPo.setWorkPressure2(workPressure2);
+		eventValuesPo.setLiquidLevel2(liquidLevel2>0?liquidLevel2:0);
 		eventValuesPo.setStandardFlowAddUp3(standardFlowAddUp3);
 		eventValuesPo.setStandardFlow3(standardFlow3);
 		eventValuesPo.setWorkTemperature3(workTemperature3);
-		eventValuesPo.setWorkPressure3(workPressure3);		
+		eventValuesPo.setWorkPressure3(workPressure3);
+		eventValuesPo.setLiquidLevel3(liquidLevel3>0?liquidLevel3:0);
 		eventValuesPo.setStandardFlowAddUp4(standardFlowAddUp4);
 		eventValuesPo.setStandardFlow4(standardFlow4);
 		eventValuesPo.setWorkTemperature4(workTemperature4);
 		eventValuesPo.setWorkPressure4(workPressure4);
+		eventValuesPo.setLiquidLevel4(liquidLevel4>0?liquidLevel4:0);
+
+		eventValuesPo.setTankPressure(pressure1);
 		
 		new Alarm_2_Controller().handleAlarm(eventLimitPo, eventValuesPo);
 		

@@ -9,22 +9,68 @@ public class FL_EventValuesPo {
 	private double standardFlow1;
 	private double workTemperature1;
 	private double workPressure1;
+	private double liquidLevel1;
 	
 	private double standardFlowAddUp2;
 	private double standardFlow2;
 	private double workTemperature2;
 	private double workPressure2;
+	private double liquidLevel2;
 	
 	private double standardFlowAddUp3;
 	private double standardFlow3;
 	private double workTemperature3;
 	private double workPressure3;
+	private double liquidLevel3;
 	
 	private double standardFlowAddUp4;
 	private double standardFlow4;
 	private double workTemperature4;
 	private double workPressure4;
-	
+	private double liquidLevel4;
+
+	private double tankPressure;
+
+	public double getLiquidLevel1() {
+		return liquidLevel1;
+	}
+
+	public void setLiquidLevel1(double liquidLevel1) {
+		this.liquidLevel1 = liquidLevel1;
+	}
+
+	public double getLiquidLevel2() {
+		return liquidLevel2;
+	}
+
+	public void setLiquidLevel2(double liquidLevel2) {
+		this.liquidLevel2 = liquidLevel2;
+	}
+
+	public double getLiquidLevel3() {
+		return liquidLevel3;
+	}
+
+	public void setLiquidLevel3(double liquidLevel3) {
+		this.liquidLevel3 = liquidLevel3;
+	}
+
+	public double getLiquidLevel4() {
+		return liquidLevel4;
+	}
+
+	public void setLiquidLevel4(double liquidLevel4) {
+		this.liquidLevel4 = liquidLevel4;
+	}
+
+	public double getTankPressure() {
+		return tankPressure;
+	}
+
+	public void setTankPressure(double tankPressure) {
+		this.tankPressure = tankPressure;
+	}
+
 	public String getEQUIPMENT_ID() {
 		return EQUIPMENT_ID;
 	}

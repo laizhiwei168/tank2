@@ -27,8 +27,21 @@ public enum AlarmEnum {
 	tank3_instantaneous_down(32,"3号箱瞬时流量过低报警"),
 	tank4_instantaneous_up(33,"4号箱瞬时流量过高报警"),
 	tank4_instantaneous_down(34,"4号箱瞬时流量过低报警"),
-	
+
+	// 由于这个值没有，现在还没有处理
 	unloading_area_pressure(40,"卸车区压力报警"),
+
+	storageTank_pressure_up(41,"储罐压力过高报警"),
+	storageTank_pressure_down(42,"储罐压力过低报警"),
+
+	tank1_level_up(43,"1号箱液位过高报警"),
+	tank1_level_down(44,"1号箱液位过低报警"),
+	tank2_level_up(45,"2号箱液位过高报警"),
+	tank2_level_down(46,"2号箱液位过低报警"),
+	tank3_level_up(47,"3号箱液位过高报警"),
+	tank3_level_down(48,"3号箱液位过低报警"),
+	tank4_level_up(49,"4号箱液位过高报警"),
+	tank4_level_down(50,"4号箱液位过低报警"),
 	;
 
 	 private  int code; //枚举字符串名称

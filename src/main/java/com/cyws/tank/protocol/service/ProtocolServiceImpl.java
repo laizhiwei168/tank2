@@ -58,6 +58,7 @@ public class ProtocolServiceImpl {
 			MsgCommonDecoder msgCommonDecoder=new MsgCommonDecoder();
 			CommonMsg commonMsg= msgCommonDecoder.toLocationInfoUploadMsg(packageData);
 			HandldSubscribeData(TPMSConsts.msg_id_terminal_common_resp,commonMsg);
+
 		}
 		// 2. 终端心跳-消息体为空 ==> 平台通用应答
 		else if (TPMSConsts.msg_id_terminal_heart_beat == header.getMsgId()) {
@@ -82,7 +83,7 @@ public class ProtocolServiceImpl {
 		}
 		// 数据上行透传 ==> 平台通用应答
 		else if(TPMSConsts.msg_id_terminal_transmission_info_upload == header.getMsgId()){
-			try {				
+			try {
 				MsgExtensionBaseDecoder msgExtensionBaseDecoder=new MsgExtensionBaseDecoder();
 				ExtensionBaseData extensionBaseData =msgExtensionBaseDecoder.bytes2ExtensionBaseData(packageData);
 				byte[] re_common_bs=this.msgProcessService.processCommonMsg(packageData);

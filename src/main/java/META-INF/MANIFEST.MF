@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Class-Path: spring-websocket-4.0.0.RELEASE.jar xSocket-2.8.15.jar comm
+ ons-codec-1.2.jar fastjson-1.2.8.jar commons-collections-3.2.2.jar dr
+ uid-1.0.28.jar jconsole.jar httpclient-4.3.6.jar grizzly-framework-2.
+ 3.15-gfa.jar httpmime-4.3.6.jar quartz-2.3.0.jar commons-logging-1.0.
+ 4.jar httpcore-4.3.3.jar xSocket-multiplexed-2.1.7.jar cors-filter-2.
+ 5.jar aopalliance-1.0.jar tyrus-spi-1.8.3.jar tyrus-client-1.8.3.jar 
+ spring-expression-4.0.0.RELEASE.jar tyrus-container-grizzly-client-1.
+ 8.3.jar HikariCP-java6-2.3.13.jar tyrus-core-1.8.3.jar java-property-
+ utils-1.10.jar spring-beans-4.0.0.RELEASE.jar spring-aop-4.0.0.RELEAS
+ E.jar commons-io-2.4.jar mysql-connector-java-5.1.38.jar javax.websoc
+ ket-api-1.1.jar c3p0-0.9.5.2.jar grizzly-http-server-2.3.15-gfa.jar g
+ rizzly-http-2.3.15-gfa.jar mchange-commons-java-0.2.11.jar ehcache-co
+ re-2.6.6.jar commons-httpclient-3.1.jar tools.jar slf4j-api-1.6.1.jar
+  spring-context-4.0.0.RELEASE.jar spring-core-4.0.0.RELEASE.jar sprin
+ g-web-4.0.0.RELEASE.jar
+Main-Class: com.cyws.tank.main.start.TankMain2
+
