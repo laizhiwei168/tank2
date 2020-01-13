@@ -36,8 +36,13 @@ public class CommandCache {
 		 }
 		 return is_add;
    }
-    
-    public String getCommandCache(String terminalPhone){
+
+	/**
+	 * 在获取命令时，移除缓存里是命令，保证命令给使用
+	 * @param terminalPhone
+	 * @return
+	 */
+	public String getCommandCache(String terminalPhone){
     	String value="";
     	if(terminalPhone!=null&&!"".equals(terminalPhone)){
 	    	Set<String> lst_command=commandMap.get(terminalPhone);

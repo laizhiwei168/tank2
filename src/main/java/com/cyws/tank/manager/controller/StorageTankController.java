@@ -314,7 +314,7 @@ public class StorageTankController {
 		 po.setA3(A3);
 		 po.setA4(A4);
 		 po.setA5(A5);
-		 po.setA6(A6);	
+		 po.setA6(A6);
 		 
 		 po.setB1(B1);
 		 po.setB2(B2);

@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="tank2:jar">
+  <artifact build-on-make="true" name="TANK2:jar">
     <output-path>D:/resource/TANK2_jar</output-path>
     <root id="root">
       <element id="archive" name="TANK2.jar">
