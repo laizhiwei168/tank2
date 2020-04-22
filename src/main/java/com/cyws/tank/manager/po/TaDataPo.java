@@ -94,7 +94,19 @@ public class TaDataPo {
 	
 	// 特殊添加
 	private Double LEVEL_MAX;
-	
+
+	// 加臭次数
+	private Double addSmellyNumber;
+
+
+	public Double getAddSmellyNumber() {
+		return addSmellyNumber;
+	}
+
+	public void setAddSmellyNumber(Double addSmellyNumber) {
+		this.addSmellyNumber = addSmellyNumber;
+	}
+
 	public Double getTANKPRESSURE3() {
 		return TANKPRESSURE3;
 	}

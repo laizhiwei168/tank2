@@ -52,7 +52,10 @@ public class StorageTankController {
 		// 液位2  08
 		 double liquidLevel2=Float.intBitsToFloat(extensionInitiativeData.getLiquidLevel2());		
 		// 温度2  09		
-		 double temperature2=Float.intBitsToFloat(extensionInitiativeData.getTemperature2());		 
+		 double temperature2=Float.intBitsToFloat(extensionInitiativeData.getTemperature2());
+
+		 // 加臭次数 11
+		double addSmellyNumber =Float.intBitsToFloat((int)extensionInitiativeData.getAddSmellyNumber());
 		 //System.out.println("pressure1:"+pressure1+"liquidLevel:"+liquidLevel+"pressure2:"+pressure2+"gasReveal:"+gasReveal+"temperature:"+temperature+"gasReveal2:"+gasReveal2+"pressure3:"+pressure3+"liquidLevel2:"+liquidLevel2+"temperature2:"+temperature2);
 		
 		 //工况流量累计 D1
@@ -301,6 +304,7 @@ public class StorageTankController {
 		 po.setSTAND_FLOW(standardFlow);
 		 po.setTEMPERATURE2(workTemperature);
 		 po.setPRESSURE3(workPressure>0?workPressure:0);
+		po.setAddSmellyNumber(addSmellyNumber);
 		 
 		 po.setWORK_ADD_UP1(workFlowAddUp2);
 		 po.setSTAND_ADD_UP1(standardFlowAddUp2);

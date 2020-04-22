@@ -153,6 +153,10 @@ private Utilty Utilty=new Utilty();
 				int temperature2=Utilty.bytes2Int(tmp, situation+1,number);
 				extensionInitiativeData.setTemperature2(temperature2);
 				break;
+			case 0x11:
+				int addSmellyNumber=Utilty.bytes2Int(tmp, situation+1,number);
+				extensionInitiativeData.setAddSmellyNumber(addSmellyNumber);
+				break;
 			case 0xA1:
 				int A1=Utilty.bytes2Int(tmp, situation+1,number);
 				extensionInitiativeData.setA1(A1);
@@ -365,7 +369,7 @@ private Utilty Utilty=new Utilty();
 				extensionInitiativeData.setBattery(battery);
 				break;
 				
-				//==黄工新添加的 3号和4号流量计===
+				//===黄工新添加的 3号和4号流量计===
 				case 0x51:
 					if(number==8){		
 						// 丰乐特殊情况

@@ -45,6 +45,9 @@ public class ExtensionInitiativeData  extends ExtensionTankData {
 	
 	// 温度2  09
 	private int temperature2;
+
+	// 加臭次数 11
+	private long addSmellyNumber;
 	
 	// 气化后压力
 	private int A1;
@@ -165,8 +168,15 @@ public class ExtensionInitiativeData  extends ExtensionTankData {
 	private int workTemperature4;	
 	// 压力4 5F
 	private int workPressure4;
-		
-	
+
+	public long getAddSmellyNumber() {
+		return addSmellyNumber;
+	}
+
+	public void setAddSmellyNumber(long addSmellyNumber) {
+		this.addSmellyNumber = addSmellyNumber;
+	}
+
 	public boolean isIs_workFlowAddUp3_8() {
 		return is_workFlowAddUp3_8;
 	}

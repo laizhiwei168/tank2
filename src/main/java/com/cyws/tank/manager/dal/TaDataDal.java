@@ -79,6 +79,8 @@ public class TaDataDal {
 		if(po.getTEMPERATURE2()!=null){sql.append(",TEMPERATURE2");}
 		if(po.getTEMPERATURE3()!=null){sql.append(",TEMPERATURE3");}
 		if(po.getTEMPERATURE4()!=null){sql.append(",TEMPERATURE4");}
+
+		if(po.getAddSmellyNumber()!=null){sql.append(",addSmellyNumber");}
 		
 		if(po.getDOOR1()!=null){sql.append(",DOOR1");}
 		if(po.getDOOR2()!=null){sql.append(",DOOR2");}
@@ -168,6 +170,8 @@ public class TaDataDal {
 		if(po.getTEMPERATURE2()!=null){sql.append(",'"+po.getTEMPERATURE2()+"'");}
 		if(po.getTEMPERATURE3()!=null){sql.append(",'"+po.getTEMPERATURE3()+"'");}
 		if(po.getTEMPERATURE4()!=null){sql.append(",'"+po.getTEMPERATURE4()+"'");}
+
+		if(po.getAddSmellyNumber()!=null){sql.append(",'"+po.getAddSmellyNumber()+"'");}
 		
 		if(po.getDOOR1()!=null){sql.append(",'"+po.getDOOR1()+"'");}
 		if(po.getDOOR2()!=null){sql.append(",'"+po.getDOOR2()+"'");}
@@ -267,7 +271,9 @@ public class TaDataDal {
 		if(po.getTEMPERATURE2()!=null){sql.append(",TEMPERATURE2='"+po.getTEMPERATURE2()+"'");}
 		if(po.getTEMPERATURE3()!=null){sql.append(",TEMPERATURE3='"+po.getTEMPERATURE3()+"'");}
 		if(po.getTEMPERATURE4()!=null){sql.append(",TEMPERATURE4='"+po.getTEMPERATURE4()+"'");}
-		
+
+		if(po.getAddSmellyNumber()!=null){sql.append(",addSmellyNumber='"+po.getAddSmellyNumber()+"'");}
+
 		if(po.getDOOR1()!=null){sql.append(",DOOR1='"+po.getDOOR1()+"'");}
 		if(po.getDOOR2()!=null){sql.append(",DOOR2='"+po.getDOOR2()+"'");}
 		if(po.getDOOR3()!=null){sql.append(",DOOR3='"+po.getDOOR3()+"'");}
@@ -368,6 +374,8 @@ public class TaDataDal {
 		if(po.getTEMPERATURE2()!=null){sql.append(",TEMPERATURE2");}
 		if(po.getTEMPERATURE3()!=null){sql.append(",TEMPERATURE3");}
 		if(po.getTEMPERATURE4()!=null){sql.append(",TEMPERATURE4");}
+
+		if(po.getAddSmellyNumber()!=null){sql.append(",addSmellyNumber");}
 		
 		if(po.getDOOR1()!=null){sql.append(",DOOR1");}
 		if(po.getDOOR2()!=null){sql.append(",DOOR2");}
@@ -457,6 +465,8 @@ public class TaDataDal {
 		if(po.getTEMPERATURE2()!=null){sql.append(",'"+po.getTEMPERATURE2()+"'");}
 		if(po.getTEMPERATURE3()!=null){sql.append(",'"+po.getTEMPERATURE3()+"'");}
 		if(po.getTEMPERATURE4()!=null){sql.append(",'"+po.getTEMPERATURE4()+"'");}
+
+		if(po.getAddSmellyNumber()!=null){sql.append(",'"+po.getAddSmellyNumber()+"'");}
 		
 		if(po.getDOOR1()!=null){sql.append(",'"+po.getDOOR1()+"'");}
 		if(po.getDOOR2()!=null){sql.append(",'"+po.getDOOR2()+"'");}
